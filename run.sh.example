@@ -4,7 +4,7 @@
 # run ./vigilate -help
 
 go build -o vigilate cmd/web/*.go && ./vigilate \
--dbuser='someuser' \
+-dbuser='mahesh' \
 -pusherHost='pusher.com' \
 -pusherKey='abc123' \
 -pusherSecret='123abc' \
